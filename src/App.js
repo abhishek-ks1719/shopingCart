@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Routes>
-        <Route path='/shopingCart/Home/' exact element={<Home/>}></Route>
+        <Route path='/shopingCart/' exact element={<Home/>}></Route>
         <Route path='/shopingCart/Home/yourcart/' element={<Cart/>}></Route>
       </Routes>
     </div>

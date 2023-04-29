@@ -7,7 +7,7 @@ const NavBar = () => {
         <p>Shopping Cart</p>
       </div>
       <div className="navlinks">
-        <Link to={'/shopingCart/Home/'} style={{
+        <Link to={'/shopingCart/'} style={{
           textDecoration: 'none',
           color: "white"
         }}>
