@@ -7,13 +7,13 @@ const NavBar = () => {
         <p>Shopping Cart</p>
       </div>
       <div className="navlinks">
-        <Link to={'/'} style={{
+        <Link to={'/shopingCart/Home/'} style={{
           textDecoration: 'none',
           color: "white"
         }}>
           <p>Home Page</p>
         </Link>
-        <Link to={'/yourcart'} style={{
+        <Link to={'/shopingCart/Home/yourcart/'} style={{
           textDecoration: 'none',
           color: "white"
         }}><p>Cart Page</p></Link>

@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <NavBar/>
       <Routes>
-        <Route path='/' exact element={<Home/>}></Route>
-        <Route path='/yourcart' element={<Cart/>}></Route>
+        <Route path='/shopingCart/Home/' exact element={<Home/>}></Route>
+        <Route path='/shopingCart/Home/yourcart/' element={<Cart/>}></Route>
       </Routes>
     </div>
   );
